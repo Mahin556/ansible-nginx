@@ -8,4 +8,5 @@
     group: nginx
     mode: 0640
     crypt_scheme: md5_crypt
+  no_log: true
   loop: "{{ users }}"
