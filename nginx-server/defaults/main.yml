@@ -1,2 +1,5 @@
 ---
-# defaults file for nginx-server
+pkgs:
+  - nginx
+
+doc_root: "/usr/share/nginx/html"

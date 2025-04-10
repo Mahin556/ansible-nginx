@@ -1,4 +1,10 @@
 ---
+- name: Installing a python3-pip
+  yum:
+    name: python3-pip
+    state: present
+  notify: restart nginx
+
 - name: "Installing a cryptography module"
   ansible.builtin.pip:
     name: cryptography
